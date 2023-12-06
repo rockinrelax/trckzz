@@ -1,0 +1,117 @@
+body {
+    font-family: 'Latin Modern Mono', 'Courier New', Courier, monospace;
+    font-style:italic;
+    font-size:18px;
+    text-align:center;
+    line-height:1.4;
+    padding:4% 28%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    cursor:url('https://suks.png'), auto;
+}
+
+  /* Style rules for light mode */
+  @media (prefers-color-scheme: light) {
+    body {
+        background-color:#daf7a6;
+        color:#ff5733;
+    }
+    a.pwit:link, a.pwit:active, a.pwit:visited {
+        background-color: #FFC300;
+    }
+    a.pwit:hover {
+        background-color:#ffc300;
+    }
+  }
+
+/* Style rules for dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #ff5733;
+      color: #8acbff;
+    }
+    a.pwit:link, a.pwit:active, a.pwit:visited {
+        background-color: #FFDBFF;
+    }
+    a.pwit:hover {
+        background-color:#fffdb7;
+    }
+  }
+
+
+a.pwit:link, a.pwit:active, a.pwit:visited {
+    color:#222222;
+    text-decoration:none;
+    display:block;
+    padding:.9em;
+    margin:1em 1em 1em .5em;
+    border-radius: 2em;
+    box-shadow: .5em .5em #222222;
+    border:.2em solid #ff5733;
+    text-align:center;
+}
+
+a.pwit:hover {
+    box-shadow: .25em .25em #000;
+}
+
+a:link, a:active, a:visited {
+    text-decoration:underline;
+    color:inherit;
+}
+
+strong {
+    font-style:normal;
+}
+
+em {
+    font-style:normal;
+}
+
+h1 {
+    font-weight:normal;
+    font-size:1.5em;
+    margin:1em auto;
+    text-align:center;
+}
+
+h2 {
+    font-weight:normal;
+    font-size:1em;
+    margin:3.5em auto;
+    text-align:center;
+}
+
+ul {
+    margin:0 0 1em 0;
+    padding:0 0 0 1em;
+    list-style-type:none;
+}
+
+p {
+    margin:2em auto;
+}
+
+img {
+    width:25%;
+    margin:1em auto;
+    border-radius: 50%;
+}
+
+ul {
+    margin:1em auto;
+    padding:0;
+    list-style-type:none;
+}
+
+li {
+    margin:0 0 .1em;
+}
+
+img {
+    width:18%;
+    box-align:center;
+    margin:4% auto -6%;
+}
